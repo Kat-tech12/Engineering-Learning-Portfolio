@@ -48,10 +48,18 @@
         background-image: linear-gradient(to bottom, #40088a, #f25f41);
     }
 
-    a {
+    a,
+    a:link,
+    a:visited {
         display: inline-block;
-        color:#702bc0;
-        padding: 20px 60px 20px 60px;
+        color: #702bc0;
+        padding: 20px 60px;
+        text-decoration: none;
+    }
+
+    a:hover,
+    a:focus {
+        text-decoration: underline;
     }
 
     /*
