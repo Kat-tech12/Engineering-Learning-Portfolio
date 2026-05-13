@@ -1,0 +1,109 @@
+
+    #maintitle {
+        text-align: center;
+        font-size: 35px;
+        border-style:ridge;
+        border-color:#decd65;
+        background-color: ivory;
+        color: rgb(84, 40, 128);
+        font-family: 'book antiqua', 'bodoni MT', 'calisto MT', 'lucida bright', serif;
+    }
+    h1 {
+        text-align: center;
+        color: indigo;
+        font-family: 'book antiqua', 'bodoni MT', 'calisto MT', 'lucida bright', serif;
+      
+
+    }
+    #mainsubtitle {
+        text-align: center;
+        color: #ffc5ba;
+        font-family: 'book antiqua', 'bodoni MT', 'calisto MT', 'lucida bright', serif;
+    }
+    h2 {
+        text-align: left;
+        color: rebeccapurple;
+        font-family: 'bookman', 'new century schoolbook', 'baskerville';
+        padding: 0px 10px 0px 10px;
+
+    }
+    p {
+        text-align: left;
+        color:#702bc0;
+        font-family: 'bookman', 'times new roman', 'book antiqua';
+        padding: 0px 20px 0px 20px;
+    }
+    section {
+        background-color: ivory;
+        border: 10px double #decd65;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left:150px;
+        margin-right:150px;
+        
+    }
+
+    body {
+        background-image: linear-gradient(to bottom, #40088a, #f25f41);
+    }
+
+    /*
+    Button group styling
+    */
+    .btn-group {
+        display: flex;
+        justify-content: center;
+    }
+
+    .btn-group button {
+        background-color: #f8efb5;
+        color: #786904;
+        border: 1px solid #786904;
+        padding: 10px 24px;
+        cursor: pointer;
+    }
+
+    .btn-group button:not(:last-child) {
+        border-right: none;
+    }
+
+    .btn-group:after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+
+    .btn-group button:hover {
+        background-color: #f25f41;
+        color: #ffa18e;
+        border: 1px solid #ffa18e;
+    }
+
+    .btn-group-bottom {
+        display: flex;
+        justify-content: center;
+    }
+
+    .btn-group-bottom button {
+        background-color: #f8efb5;
+        color: #786904;
+        border: 1px solid #786904;
+        padding: 10px 24px;
+        cursor: pointer;
+    }
+
+    .btn-group-bottom button:not(:last-child) {
+        border-right: none;
+    }
+
+    .btn-group-bottom:after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+
+    .btn-group-bottom button:hover {
+        background-color: #40088a;
+        color: #cea8ff;
+        border: 1px solid #cea8ff;
+    }
