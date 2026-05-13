@@ -82,7 +82,7 @@ teamworkButton.addEventListener('click', function() {
 });
 
 ethicsButton.addEventListener('click', function() {
-    mainIntro.style.display = 'non';
+    mainIntro.style.display = 'none';
     communicationSection.style.display = 'none';
     teamworkSection.style.display = 'none';
     ethicsSection.style.display = 'block';
@@ -103,7 +103,7 @@ knowledgeButton.addEventListener('click', function() {
 
 conclusionButton.addEventListener('click', function() {
     mainIntro.style.display = 'none';
-    communicationSection.style.dispaly = 'none';
+    communicationSection.style.display = 'none';
     teamworkSection.style.display = 'none';
     ethicsSection.style.display = 'none';
     knowledgeSection.style.display = 'none';
@@ -153,7 +153,7 @@ teamworkButtonBottom.addEventListener('click', function() {
 });
 
 ethicsButtonBottom.addEventListener('click', function() {
-    mainIntro.style.display = 'non';
+    mainIntro.style.display = 'none';
     communicationSection.style.display = 'none';
     teamworkSection.style.display = 'none';
     ethicsSection.style.display = 'block';
@@ -174,7 +174,7 @@ knowledgeButtonBottom.addEventListener('click', function() {
 
 conclusionButtonBottom.addEventListener('click', function() {
     mainIntro.style.display = 'none';
-    communicationSection.style.dispaly = 'none';
+    communicationSection.style.display = 'none';
     teamworkSection.style.display = 'none';
     ethicsSection.style.display = 'none';
     knowledgeSection.style.display = 'none';
