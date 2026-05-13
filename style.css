@@ -24,14 +24,14 @@
         text-align: left;
         color: rebeccapurple;
         font-family: 'bookman', 'new century schoolbook', 'baskerville';
-        padding: 0px 10px 0px 10px;
+        padding: 0px 20px 0px 20px;
 
     }
     p {
         text-align: left;
         color:#702bc0;
         font-family: 'bookman', 'times new roman', 'book antiqua';
-        padding: 0px 20px 0px 20px;
+        padding: 0px 60px 0px 60px;
     }
     section {
         background-color: ivory;
